@@ -1,31 +1,31 @@
-# GENERATED from packaging/homebrew/silo.rb.tmpl by scripts/render-formula.ts.
+# GENERATED from packaging/homebrew/silo.rb.tmpl by tools/render-formula.ts.
 # Edit the template in org-quicko/silo, not this file: the release workflow
 # overwrites it on every tag.
 class Silo < Formula
   desc "Minimal, self-hostable headless CMS with JSON Schema collections"
   homepage "https://github.com/org-quicko/silo"
-  version "0.2.0"
+  version "1.0.0"
   license "AGPL-3.0-only"
 
   on_macos do
     on_arm do
-      url "https://github.com/org-quicko/silo/releases/download/v0.2.0/silo-0.2.0-darwin-arm64.tar.gz"
-      sha256 "ee3408268a468841b00874de0e73aa4821b1f2a3656108bb9110a722a7fb89b8"
+      url "https://github.com/org-quicko/silo/releases/download/v1.0.0/silo-1.0.0-darwin-arm64.tar.gz"
+      sha256 "54bd9f4db1a519c568214b2eb26d7ac90a977f2804aff8a766b8ce25454d5c2d"
     end
     on_intel do
-      url "https://github.com/org-quicko/silo/releases/download/v0.2.0/silo-0.2.0-darwin-x64.tar.gz"
-      sha256 "bb2b78927901d04010885b0f43bdfee7184fc0251510893758e52b855b659a66"
+      url "https://github.com/org-quicko/silo/releases/download/v1.0.0/silo-1.0.0-darwin-x64.tar.gz"
+      sha256 "ec8fc9e0d7d576fc75a4ce7f36d910f678d36d6050d45b29851c5e5354c6d134"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/org-quicko/silo/releases/download/v0.2.0/silo-0.2.0-linux-arm64.tar.gz"
-      sha256 "8c0eb587eed2f806e8bc76ee871882846ae59e63c317a86a7f7c6534cf90166e"
+      url "https://github.com/org-quicko/silo/releases/download/v1.0.0/silo-1.0.0-linux-arm64.tar.gz"
+      sha256 "95a349b78a62da8c6f5b119a88b6e99fbc1000c40ee277e5bdd38102f3fcea44"
     end
     on_intel do
-      url "https://github.com/org-quicko/silo/releases/download/v0.2.0/silo-0.2.0-linux-x64.tar.gz"
-      sha256 "02f6bf6387a7f75acb052dc310f5a22133477d5b99a512089ecc70dcd85210e2"
+      url "https://github.com/org-quicko/silo/releases/download/v1.0.0/silo-1.0.0-linux-x64.tar.gz"
+      sha256 "e4bc7b9b55e823058d6c1a7ff7920a62b1172c82389eb35c111fedab2f25ac0f"
     end
   end
 
