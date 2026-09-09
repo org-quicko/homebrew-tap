@@ -10,22 +10,22 @@ class Silo < Formula
   on_macos do
     on_arm do
       url "https://github.com/org-quicko/silo/releases/download/v1.0.0/silo-1.0.0-darwin-arm64.tar.gz"
-      sha256 "a7c4f4beaa219daa83cdf8e6c14e0f5c93ba370600aba4337950973acaf04306"
+      sha256 "bfe69728a0ce61c9674c2e6e575c3cf9dd48fdb9f1d54afba94cc6deab220a6a"
     end
     on_intel do
       url "https://github.com/org-quicko/silo/releases/download/v1.0.0/silo-1.0.0-darwin-x64.tar.gz"
-      sha256 "8b1803f231b9c6971f742f509b116ca7b534a61a3c3175458632f70f2f49f8c4"
+      sha256 "ccd20f15f1734065a18565c399f48c120f8edecb96703eb5262c72b7ec71df54"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/org-quicko/silo/releases/download/v1.0.0/silo-1.0.0-linux-arm64.tar.gz"
-      sha256 "fdaf8dbb18542164292fa05f8d6c12cfd5b5f0d25329aedd8d921842c86087e7"
+      sha256 "09ea8222f38fdc4282df79c906e1f1cc044241898dfefc3756f6af700b912343"
     end
     on_intel do
       url "https://github.com/org-quicko/silo/releases/download/v1.0.0/silo-1.0.0-linux-x64.tar.gz"
-      sha256 "030502b549d6fe0f3f3a312f0ea7b90ea3dc643c7b8fc961d854af0f99db0e7e"
+      sha256 "ab45675da018125d6e7a9d8413968e5c04529a195ac80ef2e511dee50c717ce1"
     end
   end
 
