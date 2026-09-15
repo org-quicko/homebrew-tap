@@ -4,28 +4,28 @@
 class Silo < Formula
   desc "Minimal, self-hostable headless CMS with JSON Schema collections"
   homepage "https://github.com/org-quicko/silo"
-  version "1.0.0"
+  version "1.1.0"
   license "AGPL-3.0-only"
 
   on_macos do
     on_arm do
-      url "https://github.com/org-quicko/silo/releases/download/v1.0.0/silo-1.0.0-darwin-arm64.tar.gz"
-      sha256 "dd100bbe90dbda1d95cc3e0208d6e8a23fdc9aff6ea50d282bece7d5faf5fb6d"
+      url "https://github.com/org-quicko/silo/releases/download/v1.1.0/silo-1.1.0-darwin-arm64.tar.gz"
+      sha256 "f37bd0c043209b52549caa3157d1be0034919af9ede09228f16fbe24c446b44d"
     end
     on_intel do
-      url "https://github.com/org-quicko/silo/releases/download/v1.0.0/silo-1.0.0-darwin-x64.tar.gz"
-      sha256 "d41e8be80fcf5c34836a23f51ba3fbeeabb094004554cc932b7b29848ebaa4f0"
+      url "https://github.com/org-quicko/silo/releases/download/v1.1.0/silo-1.1.0-darwin-x64.tar.gz"
+      sha256 "5a39026046304a88641adfa1c0666f0c88c1473a3a0da55155bc3e9b43eea67d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/org-quicko/silo/releases/download/v1.0.0/silo-1.0.0-linux-arm64.tar.gz"
-      sha256 "22468c623f94a6d9b13fb3f994c10c2de65a6cc6a24877fa276ea0e329c90685"
+      url "https://github.com/org-quicko/silo/releases/download/v1.1.0/silo-1.1.0-linux-arm64.tar.gz"
+      sha256 "f6b8dfd3087ad7f865b529af4f8bb52142b6885396d5b2087b60ad85a2856604"
     end
     on_intel do
-      url "https://github.com/org-quicko/silo/releases/download/v1.0.0/silo-1.0.0-linux-x64.tar.gz"
-      sha256 "926165a2dbf92dd42b769c430289cac95b7539ee91a108776361e273b80c9639"
+      url "https://github.com/org-quicko/silo/releases/download/v1.1.0/silo-1.1.0-linux-x64.tar.gz"
+      sha256 "4ba8498f39e6fd0cf857f667b638f06205508be2cf38825eff510082824ebc68"
     end
   end
 
